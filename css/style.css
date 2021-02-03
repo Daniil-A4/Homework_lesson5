@@ -1,0 +1,277 @@
+
+@import url("https://fonts.googleapis.com/css?family=Lora:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Pacifico:regular&display=swap&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Lobster:regular&display=swap&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Jura:regular,700&display=swap&subset=cyrillic-ext');
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-SemiBold.woff2") format("woff2"), url("../fonts/Gilroy-SemiBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-LightItalic.woff2") format("woff2"), url("../fonts/Gilroy-LightItalic.woff") format("woff");
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.nav_top {
+	margin: 5px 330px 20px 0;
+	background-color: rgba(128, 128, 128, 0.247);
+
+}
+.nav_top span{
+	display: inline-block;
+	padding: 20px;
+	font-size: 18px;
+}
+.nav_top .name {
+	padding: 20px;
+	background-color: rgb(238, 238, 10);
+	font-weight: 700;
+	
+}
+.nav_top .nav_menu {
+	color: white;
+	padding: 20px;
+	margin: 0 0 0 -4px;
+	background-color: gray;
+}
+.nav_content {
+	color: rgb(59, 59, 253);
+	
+}
+.nav_content a {
+	padding: 10px;
+}
+
+.content_top h1{
+	font-size: 35px;
+	font-weight: 700;
+	margin: 20px 60px;
+}
+.content_top_subtitle {
+	color: gray;
+	margin: 0 0 20px 60px;
+}
+.content_top img {
+	margin: 0 60px 40px 60px;
+	width: 700px;
+}
+.content_top p {
+	font-family: 'lora';
+	text-indent: 15px;
+	margin: 0 600px 0 60px;
+	line-height: 25px;
+}
+.content_top .content_top_paragraph {
+	padding: 0 0 20px 0;
+	
+}
+.content h2 {
+	font-size: 35px;
+	font-weight: 700;
+	margin: 20px 60px;
+}
+.content p {
+	margin: 0 60px;
+	padding: 20px 0;
+}
+.content span {
+	padding: 3px 5px;
+	background-color: rgb(238, 238, 10);
+}
+.content img {
+	width: 700px;
+	margin: 20px 60px;
+}
+.content .content_info {
+	line-height: 30px;
+	
+	background-color: rgba(175, 174, 174, 0.356);
+	text-shadow: 1px 4px 10px rgb(62, 19, 110);
+
+	
+}
+.content .content_info .content_info_span {
+	font-weight: 700;
+	padding: 0%;
+	background-color: rgba(248, 241, 241, 0);
+}
+.content_subtitle {
+	font-family: 'Gilroy';
+	width: 700px;
+	line-height: 25px;
+}
+.content_bottom {
+	font-family:'Pacifico' ;
+	font-size: 20px;
+	line-height: 25px;
+	text-indent: 25px;
+}
+.content_bottom img {
+	padding: 10px;
+	background-color: rgba(58, 0, 0, 0.479);
+	margin-left: 350px;
+}
+.content_1 h2 {
+	font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+	font-size: 30px;
+	text-decoration: underline;
+	margin: 20px 60px;
+}
+.content_1 .content_top_subtitle {
+	color: gray;
+	margin: 0 0 20px 60px;
+}
+.content_1_scroll {
+	margin: 0 100px 30px 100px;
+	padding: 10px;
+	max-height: 150px;
+	overflow: scroll;
+	background-color: bisque;
+}
+.content_1 .content_1_scroll p {
+	padding: 10px;
+}
+.image img {
+	width: 32%;
+	margin-bottom: 40px;
+}
+.image .img_1 {
+	margin-left: -40px;
+}
+.image .img_2 {
+	margin-left: -160px;
+	margin-top: -17px;
+}
+.image .img_3 {
+	margin-top: 30px;
+	margin-left: 70px;
+}
+.image .img_5 {
+	margin-top: -70px;
+	margin-left: -50px;
+}
+
+.image .img_6 {
+	margin-top: -30px;
+	margin-left: 20px;
+}
+.list {
+	font-family: 'Jura';
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+	/* background-color: cadetblue; */
+}
+.list p{
+	display: inline-block;
+	width: 500px;
+	height: 200px;
+	overflow: auto;
+	margin: 10px;
+	padding: 20px 30px;    /* Почему если тут изменить высоту например на 10px блоки с текстом ломаются? */
+	background-color: rgba(0, 138, 120, 0.247);
+}
+.footer {
+	color: rgb(212, 212, 212);
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.644);
+}
+.phones {
+	padding: 10px;
+	line-height: 25px;
+}
+.adress {
+	padding: 10px;
+	line-height: 25px;
+	margin: 0 0 40px;
+}
+.footer .menu {
+	margin: -220px 0 0 360px;
+	width: 150px;
+	line-height: 25px; 
+}
+.menu div {
+	margin-bottom: 10px;
+}
+.footer .menu a {
+	display: block;
+	color: rgb(212, 212, 212);
+}
+.footer .menu > div {
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.footer .menu_info {
+	margin: -300px 0 30px 760px;
+	width: 240px;
+	line-height: 25px;
+} 
+.footer .menu_info a {
+	display: block;
+	color: rgb(212, 212, 212);
+}
+.footer .menu_info > div {
+	font-size: 20px;
+	line-height: 40px;
+}
+.menu_info_1 div{
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.menu_info_1 a {
+	color: rgb(212, 212, 212);
+	display: block;
+	line-height: 25px;
+}
+.menu_info_1 {
+	margin: -310px 0 50px 1250px;
+}
